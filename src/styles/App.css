@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: #F5F7FB;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* utilities */
+.btn {
+  border-radius: 15px;
+  padding: .7em 2em;
+  border: none;
+}
+
+/* === quiz styling === */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.quiz-tab {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 0.79px solid #DBDEF0;
+  color: #293264;
+}
+
+.quiz-question {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+.quiz-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.64rem;
+  color: #293264;
+  border: 1px solid #293264;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.quiz-checkAnswer-btn, .quiz-playAgain-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background: #4D5B9E;
+  color: #F5F7FB;
+}
+
+.quiz-checkAnswer-btn {
+  align-self: center;
+}
+
+.quiz-info-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.quiz-scoreboard {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+
+/* === home page styling === */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #293264;
+}
+
+.home-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+
+.home-description {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 2em;
+}
+
+.home-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background: #4D5B9E;
+  color: #F5F7FB;
+}
+
+/* image blob styling */
+.blue-blob, .yellow-blob {
+  position: fixed;
+  z-index: -1;
+}
+
+.blue-blob {
+  bottom: -120px;
+  left: -120px;
+}
+
+.yellow-blob {
+  top: -150px;
+  right: -150px;
+}
